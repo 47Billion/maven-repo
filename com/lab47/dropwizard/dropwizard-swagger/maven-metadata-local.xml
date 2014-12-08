@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.lab47.dropwizard</groupId>
+  <artifactId>dropwizard-swagger</artifactId>
+  <versioning>
+    <release>0.5.3</release>
+    <versions>
+      <version>0.5.3</version>
+    </versions>
+    <lastUpdated>20141208104349</lastUpdated>
+  </versioning>
+</metadata>
