@@ -2,12 +2,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-
-	<parent>
-		<groupId>org.sonatype.oss</groupId>
-		<artifactId>oss-parent</artifactId>
-		<version>7</version>
-	</parent>
+	<groupId>com.lab47.dropwizard</groupId>
+	<artifactId>dropwizard-guice</artifactId>
+	<version>0.7.3-SNAPSHOT</version>
+	<name>Dropwizard Guice Support</name>
+	<packaging>jar</packaging>
+	<description>Simple library for using Guice DI in a dropwizard service.</description>
+	<url>https://github.com/47billion/libs/dropwizard-guice</url>
 
 	<repositories>
 		<repository>
@@ -16,13 +17,6 @@
 			<url>http://oss.sonatype.org/content/repositories/snapshots</url>
 		</repository>
 	</repositories>
-
-	<groupId>com.lab47.dropwizard</groupId>
-	<artifactId>dropwizard-guice</artifactId>
-	<version>0.7.3-SNAPSHOT</version>
-	<name>Dropwizard Guice Support</name>
-	<description>Simple library for using Guice DI in a dropwizard service.</description>
-	<url>https://github.com/47billion/libs/dropwizard-guice</url>
 
 	<licenses>
 		<license>
