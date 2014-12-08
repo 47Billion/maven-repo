@@ -12,7 +12,7 @@ mvn install:install-file
  -DgroupId=[group-id]
  -DartifactId=[artifact-id]
  -Dversion=[version]
- -Dpackaging=[packaging-format]
+ -Dpackaging=jar
  -Dfile=[path-to-file]
  -DlocalRepositoryPath=[path-to-git-repo]
 ```
