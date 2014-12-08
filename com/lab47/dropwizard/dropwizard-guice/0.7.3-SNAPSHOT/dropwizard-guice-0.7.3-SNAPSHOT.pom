@@ -5,6 +5,5 @@
   <groupId>com.lab47.dropwizard</groupId>
   <artifactId>dropwizard-guice</artifactId>
   <version>0.7.3-SNAPSHOT</version>
-  <packaging>com.lab47.dropwizard</packaging>
   <description>POM was created from install:install-file</description>
 </project>
