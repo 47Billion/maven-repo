@@ -15,6 +15,9 @@ mvn install:install-file
  -Dpackaging=jar
  -Dfile=[path-to-file]
  -DlocalRepositoryPath=[path-to-git-repo]
+ -DgeneratePom=true 
+ -DcreateChecksum=true 
+ -DpomFile=pom.xml  
 ```
 
 - [group-id], [artifact-id], [version] and [packaging-format] define the Maven properties of the file to install.
