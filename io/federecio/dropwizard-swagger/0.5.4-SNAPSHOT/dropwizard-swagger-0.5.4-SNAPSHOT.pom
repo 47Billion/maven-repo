@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.lab47.dropwizard</groupId>
+
+    <groupId>io.federecio</groupId>
     <artifactId>dropwizard-swagger</artifactId>
-    <version>0.5.3</version>
+    <version>0.5.4-SNAPSHOT</version>
 
     <name>Dropwizard Swagger support</name>
     <description>A simple way to document your REST APIs in DropWizard using Swagger</description>
-    <url>https://github.com/47billion/libs/dropwizard-swagger/</url>
+    <url>https://github.com/federecio/dropwizard-swagger/</url>
     <inceptionYear>2014</inceptionYear>
 
     <licenses>
@@ -16,6 +17,37 @@
             <url>http://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
     </licenses>
+
+    <developers>
+        <developer>
+            <name>Federico Recio</name>
+            <url>http://about.me/federecio</url>
+        </developer>
+        <developer>
+            <name>Animesh Kumar</name>
+            <url>http://animesh.org</url>
+        </developer>
+        </developers>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>ossrh</id>
+            <name>Maven Central Snapshot Repository</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>ossrh</id>
+            <name>Maven Central Staging Repository</name>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+    </distributionManagement>
+
+    <scm>
+        <connection>scm:git:git://github.com:federecio/dropwizard-swagger.git</connection>
+        <developerConnection>scm:git:git@github.com:federecio/dropwizard-swagger.git</developerConnection>
+        <url>http://github.com/federecio/dropwizard-swagger</url>
+        <tag>HEAD</tag>
+    </scm>
 
     <properties>
         <dropwizard.version>0.7.1</dropwizard.version>
