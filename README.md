@@ -39,8 +39,6 @@ Add the GitHub repository to the POM file of the project:
 </repository>
 ```
 
-If the POM file does not include a definition of repositories, put the XML above inside a <repositories> element.
-The id and name of the repository is not important, so use different values if you want. Just make sure the id is unique.
-Declare the dependency in the POM as you do for every dependency.
+If the POM file does not include a definition of repositories, put the XML above inside a <repositories> element. Declare the dependency in the POM as you do for every dependency.
 
 That's it! Maven should now be able to use the JAR file.
