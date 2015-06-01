@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>io.dropwizard.modules</groupId>
+  <artifactId>dropwizard-elasticsearch</artifactId>
+  <versioning>
+    <versions>
+      <version>0.7.0-2-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20150410123119</lastUpdated>
+  </versioning>
+</metadata>
